@@ -81,6 +81,8 @@ Temperature and humidity have client-configuration descriptors (`BLE2902`) to su
 **Important:** BLE compilation and behavior on a physical ESP32 have not yet been verified. ESP32 Arduino core versions can differ in BLE API signatures; check compilation and adapt the callback value type if necessary. This is planned for the review session.
 
 ## Testing and evidence
+<img width="1920" height="972" alt="Screenshot 2026-11-06 at 19-15-43 AQM-keertinandhan - Wokwi ESP32 STM32 Arduino Simulator" src="https://github.com/user-attachments/assets/f9715475-4337-4e95-8bf2-a41ec69cac0b" />
+
 
 - **Observed:** Wokwi screenshot shows repeated filtered temperature and simulated humidity reports, with the filter reaching five samples.
 - **To capture before submission:** screenshot showing `GET TEMP`, `GET HUM`, `SET INTERVAL 5`, the confirmation, and subsequent automatic reports.
